@@ -60,7 +60,7 @@ export default function NavbarDemo() {
                 <Moon className="w-5 h-5" />
               )}
             </button>
-            <NavbarButton variant="secondary">Masuk</NavbarButton>
+            {/* <NavbarButton variant="secondary">Masuk</NavbarButton> */}
             <NavbarButton variant="primary">Hubungi Kami</NavbarButton>
           </div>
         </NavBody>
@@ -103,13 +103,13 @@ export default function NavbarDemo() {
               </button>
             </div>
             <div className="flex w-full flex-col gap-4">
-              <NavbarButton
+              {/* <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
               >
                 Masuk
-              </NavbarButton>
+              </NavbarButton> */}
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"

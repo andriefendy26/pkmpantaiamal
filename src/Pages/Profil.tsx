@@ -46,7 +46,7 @@ export default function ProfilPuskesmas() {
             <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-wider edu-vic-wa-nt-hand text-black dark:text-white">
               Profil UPTD<br />Puskesmas
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-xl text-gray-300 leading-relaxed">
               Unit Pelaksana Teknis Daerah Puskesmas yang berkomitmen memberikan pelayanan kesehatan berkualitas untuk masyarakat
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function ProfilPuskesmas() {
       </div> */}
 
       {/* Tabs */}
-      <div className="border-b border-gray-900 sticky mb-4 top-0 bg-black/95 backdrop-blur-sm z-10">
+      <div className="border-b border-gray-900 sticky mb-4 top-0 bg-gray-800 backdrop-blur-sm z-10">
         <div className="container mx-auto px-4">
           <div className="flex overflow-x-auto">
             {tabs.map((tab) => (
@@ -82,7 +82,7 @@ export default function ProfilPuskesmas() {
                     : "text-gray-500 hover:text-gray-300"
                 }`}
               >
-                <span className="mr-2">{tab.icon}</span>
+                {/* <span className="mr-2">{tab.icon}</span> */}
                 {tab.label}
               </button>
             ))}
@@ -95,8 +95,8 @@ export default function ProfilPuskesmas() {
         {activeTab === "tentang" && (
           <div className="space-y-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-black dark:text-white">Tentang UPTD Puskesmas</h2>
-              <div className="space-y-4 text-gray-600 leading-relaxed">
+              <h2 className="text-3xl font-bold mb-6 text-gray-800 dark:text-white">Tentang UPTD Puskesmas</h2>
+              <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
                   UPTD Puskesmas merupakan unit pelaksana teknis daerah yang menyelenggarakan pelayanan kesehatan tingkat pertama secara menyeluruh, terpadu, dan berkesinambungan. Puskesmas kami telah melayani masyarakat dengan dedikasi penuh untuk meningkatkan derajat kesehatan masyarakat.
                 </p>
@@ -116,7 +116,7 @@ export default function ProfilPuskesmas() {
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-gray-800">
                   <span>Jumat</span>
-                  <span className="font-medium text-white">07:30 - 12:30 WIB</span>
+                  <span className="font-medium text-white">07:30 - 11:00 WIB</span>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-gray-800">
                   <span>Sabtu</span>

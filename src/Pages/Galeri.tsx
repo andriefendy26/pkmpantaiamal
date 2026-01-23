@@ -55,7 +55,7 @@ export default function Galeri() {
     <div className='mx-auto max-w-7xl px-4 pb-24'>
       <div className='px-3 max-w-4xl pt-28'>
         <h1 className='text-5xl md:text-6xl mb-6 italic tracking-wider edu-vic-wa-nt-hand'>Galeri</h1>
-        <p className='mb-12 max-w-2xl text-xl text-gray-600 roboto-mono'>
+        <p className='mb-12 max-w-2xl text-xl text-gray-600 dark:text-gray-300 roboto-mono'>
           Puskesmas Pantai Amal berkomitmen untuk menyediakan layanan kesehatan terbaik bagi masyarakat di sekitar kawasan puskesmas.
         </p>
       </div>

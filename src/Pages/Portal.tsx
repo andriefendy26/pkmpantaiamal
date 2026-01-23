@@ -76,7 +76,7 @@ export default function PortalSistemInformasi() {
             <h1 className="text-4xl edu-vic-wa-nt-hand  md:text-6xl font-bold mb-6 tracking-tight">
               Portal Sistem<br />Informasi
             </h1>
-            <p className="text-md md:text-xl roboto-mono text-gray-600 mb-8 max-w-2xl">
+            <p className="text-md md:text-xl roboto-mono text-gray-300 mb-8 max-w-2xl">
               Akses mudah ke semua sistem informasi Puskesmas dalam satu platform terpadu
             </p>
             
@@ -87,7 +87,7 @@ export default function PortalSistemInformasi() {
                 placeholder="Cari sistem..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full bg-gray-900 border border-gray-800 px-6 py-4 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-white transition-colors"
+                className="w-full bg-gray-800 border border-gray-800 px-6 py-4 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-white transition-colors"
               />
               <span className="absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-500">
                 ⌘
@@ -211,14 +211,14 @@ export default function PortalSistemInformasi() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="/kontak"
+                href="https://api.whatsapp.com/send/?phone=6282255187877&text=Halo%2C+aplikasi+saya+bermasalah.&type=phone_number&app_absent=0"
                 className="px-8 py-3 bg-white text-black rounded-lg font-medium hover:bg-gray-200 transition-colors"
               >
                 Hubungi Admin
               </a>
               <a
                 href="/informasi/faq"
-                className="px-8 py-3 bg-gray-900 border border-gray-800 text-white rounded-lg font-medium hover:border-gray-700 transition-colors"
+                className="px-8 py-3 bg-gray-900 border border-gray-700 text-white rounded-lg font-medium hover:border-gray-700 transition-colors"
               >
                 Lihat FAQ
               </a>

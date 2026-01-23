@@ -56,7 +56,7 @@ function HeroSectionOne() {
             duration: 0.3,
             delay: 0.8,
           }}
-          className="relative z-10 mx-auto max-w-xl py-4 roboto-mono text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
+          className="relative z-10 mx-auto max-w-xl py-4 roboto-mono text-center text-lg font-normal text-neutral-600 dark:text-neutral-300"
         >
           Kesehatan anda adalah tujuan kami, melayani dengan sepenuh hati untuk
           masyarakat pantai amal dan sekitarnya.
