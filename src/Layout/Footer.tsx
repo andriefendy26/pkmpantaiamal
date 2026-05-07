@@ -39,16 +39,16 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4 text-xl text-black dark:text-white ">Kontak</h3>
             <ul className="space-y-2 text-sm text-gray-500">
-              <li>📞 (0551) 123-4567</li>
-              <li>✉️ info@puskesmas.id</li>
-              <li>📍 Jl. Kesehatan No. 123, Tarakan</li>
+              <li>📞 62 851-7966-3858</li>
+              <li>✉️ pkm.pantaiamal@gmail.com</li>
+              <li>📍 Jl. Sei Kayan, Kelurahan Pantai Amal Tarakan</li>
             </ul>
           </div>
         </div>
 
         {/* Bottom */}
         <div className="pt-8 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <div>© 2025 UPTD Puskesmas. All rights reserved.</div>
+          <div>© 2026 UPTD Puskesmas. All rights reserved.</div>
           <div className="flex gap-6">
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link to="/terms" className="hover:text-white transition-colors">Terms</Link>

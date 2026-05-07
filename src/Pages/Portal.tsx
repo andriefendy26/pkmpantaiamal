@@ -40,12 +40,23 @@ export default function PortalSistemInformasi() {
       category: "Managemen",
       status: "aktif"
     },
+    {
+      id: 4,
+      name: "Sistem Informasi RKBU",
+      fullName: "Sistem Informasi Manajemen RKBU",
+      description: "Sistem informasi untuk mengelola data RKBU secara efisien",
+      icon: "🏥",
+      img : "",
+      url: "https://rkbu.pkmpantaiamal.com/admin",
+      category: "Managemen",
+      status: "aktif"
+    },
   ];
 
   const categories = [
     { id: "semua", name: "Semua", icon: "●" },
     { id: "pelayanan", name: "Pelayanan", icon: "●" },
-    { id: "pelayanan", name: "Internal", icon: "●" },
+    { id: "internal", name: "Internal", icon: "●" },
     // { id: "pelaporan", name: "Pelaporan", icon: "●" },
     // { id: "logistik", name: "Logistik", icon: "●" },
     // { id: "kepegawaian", name: "Kepegawaian", icon: "●" },
